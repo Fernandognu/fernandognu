@@ -1,4 +1,4 @@
-## Ola eu sou o Fernando Garcia, Desenvolvedor!
+## Olá eu sou o Fernando Garcia, Desenvolvedor Web!
 <div align="center">
   <a href="https://github.com/fernandognu">
   <img height="180em" src="https://github-readme-stats.vercel.app/api?username=fernandognu&show_icons=true&theme=dracula&include_all_commits=true&count_private=true"/>
