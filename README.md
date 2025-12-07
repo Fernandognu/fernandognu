@@ -34,26 +34,6 @@
 - Git & GitHub
 - Bancos de dados (MySQL, PostgreSQL, MongoDB)
 
-**Projetos em destaque**
-
-- Projeto A — curta descrição e link: `https://github.com/fernandognu/projeto-a`
-- Projeto B — curta descrição e link: `https://github.com/fernandognu/projeto-b`
-
-Substitua os itens acima pelos repositórios que você deseja destacar.
-
-**Como executar um projeto (exemplo genérico)**
-
-1. Clone o repositório: `git clone https://github.com/fernandognu/<repo>.git`
-2. Entre na pasta: `cd <repo>`
-3. Instale dependências: `npm install` ou `yarn`
-4. Rode em desenvolvimento: `npm start` ou `npm run dev`
-
-Adapte os comandos conforme cada projeto.
-
-**Contribuições**
-
-- Pull requests são bem-vindas. Abra uma issue antes de começar mudanças grandes.
-
 **Contato**
 
 - Email: `fernandogdac@gmail.com`
@@ -67,38 +47,3 @@ Adapte os comandos conforme cada projeto.
 Este repositório está coberto pela licença presente no arquivo `LICENSE`.
 
 ---
-
-**Deploy**
-
-- Este repositório contém um workflow (`.github/workflows/cobrinha.yml`) que gera um SVG de contribuição e publica a pasta `dist` na branch `output` automaticamente (agendamento + `workflow_dispatch`).
-- Para servir como site via GitHub Pages, ative nas configurações do repositório: `Settings > Pages` e selecione a branch `output` como fonte (pasta `/`).
-
-Comandos manuais de exemplo (projeto front-end estático):
-
-1. Build (exemplo):
-
-```bash
-npm run build
-```
-
-2. Publicar a pasta `dist` na branch `output` (duas opções):
-
-- Usando `gh-pages` (instale se necessário):
-
-```bash
-npx gh-pages -d dist -b output
-```
-
-- Usando `git subtree`:
-
-```bash
-git add dist -f
-git commit -m "build: deploy dist"
-git subtree push --prefix dist origin output
-```
-
-Observações:
-
-- O workflow já utilizado neste repositório publica `dist` automaticamente com o `GITHUB_TOKEN` (ver `.github/workflows/cobrinha.yml`).
-- Se preferir outro fluxo de deploy (Netlify, Vercel, Docker, servidor próprio), diga qual e eu adapto as instruções.
-
